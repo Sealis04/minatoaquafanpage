@@ -13,6 +13,21 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation:{
+        sampleAni:'toplefttoBottom 1s ',
+        bigtosmol:'bigtosmol 1s'
+      },
+      keyframes:{
+        toplefttoBottom:{
+          '0%' : {transform:'translate(-10%,-10%)',opacity:'0'},
+          '100%' : {transform:'translate(0,0)',opacity:'1'}
+        },
+        bigtosmol:{
+          '0%':{transform:'scale(1.5)',opacity:'0'},
+          '25%':{opacity:'0'},
+          '100%':{transform:'scale(1)',opacity:'1'}
+        }
+      }
     },
   },
   plugins: [],
