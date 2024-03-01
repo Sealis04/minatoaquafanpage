@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.path {
+  stroke: linear-gradient(156deg, rgba(246,104,188,1) 0%, rgba(0,0,0,0) 50%, rgba(0,185,255,1) 100%);
+}

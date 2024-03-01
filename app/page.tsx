@@ -107,7 +107,6 @@ export default function Home() {
         },
         opacity:0,
         backgroundColor:'white',
-
       })
     },
     { scope: containerRef.current as unknown as HTMLElement }
