@@ -36,7 +36,7 @@ jobs:
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3.0.1
         with:
-          path: /minatoaquafanpage/out
+          path: ./out
 
   deploy:
     environment:
