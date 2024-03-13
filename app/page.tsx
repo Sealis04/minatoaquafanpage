@@ -10,9 +10,9 @@ import { use, useRef } from "react";
 import { useGSAP } from '@gsap/react'
 import gsap from "gsap";
 import { CustomEase, MotionPathPlugin, ScrollTrigger } from "gsap/all";
-import bg from "../../public/bgimages/Twitter.jpg"
-import bg2 from "../../public/bgimages/Aqua_Logo.webp"
-import bg3 from "../../public/bgimages/de8r6o4-1285a524-7605-459c-aa11-d5a3bf96862d.png"
+import bg from "../public/bgimages/Twitter.jpg"
+import bg2 from "../public/bgimages/Aqua_Logo.webp"
+import bg3 from "../public/bgimages/de8r6o4-1285a524-7605-459c-aa11-d5a3bf96862d.png"
 import Image from "next/image";
 import { url } from "inspector";
 import SectionTwo from "./_components/sectionTwo";

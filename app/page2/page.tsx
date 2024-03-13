@@ -1,4 +1,3 @@
-
 'use client'
 import { MutableRefObject, useEffect, useRef, useState } from "react";
 import {useGSAP} from '@gsap/react'
